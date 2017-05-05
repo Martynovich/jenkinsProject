@@ -5,8 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello Jenkins!");
-        int a = 2;
-        int b = 2;
+        int a = 3;
+        int b = 3;
         System.out.println(a + "+" + b + "=" + new Calculator().sum(a,b));
     }
 }
