@@ -8,6 +8,7 @@ public class Main {
         int a = 3;
         int b = 3;
         System.out.println(a + "+" + b + "=" + new Calculator().sum(a,b));
+        System.out.println(a + "-" + b + "=" + new Calculator().minus(a,b));
         System.out.println(a + "*" + b + "=" + new Calculator().mult(a,b));
         System.out.println("eeeeeeee");
     }
