@@ -11,6 +11,7 @@ public class Main {
         System.out.println(a + "-" + b + "=" + new Calculator().minus(a,b));
         System.out.println(a + "*" + b + "=" + new Calculator().mult(a,b));
         System.out.println(a + "/" + b + "=" + new Calculator().div(a,b));
+        System.out.println("koren" + a + "=" + new Calculator().korenVStepeni(a));
         System.out.println("eeeeeeee");
     }
 }

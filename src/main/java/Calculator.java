@@ -18,4 +18,8 @@ public class Calculator {
     int div(int a, int b) {
         return a/b;
     }
+
+    double korenVStepeni(int a) {
+        return Math.sqrt(a);
+    }
 }
