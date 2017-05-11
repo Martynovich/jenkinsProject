@@ -14,4 +14,12 @@ public class Calculator {
     int mult(int a, int b) {
         return a*b;
     }
+
+    int div(int a, int b) {
+        return a/b;
+    }
+
+    double korenVStepeni(int a) {
+        return Math.sqrt(a);
+    }
 }
